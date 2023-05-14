@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="script1.js"> </script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+<div class="topnav" id="myTopnav">
+  <a href="home.html" class="active">Home</a>
+  <a href="news.html">News</a>
+  <a href="contact.html">Contact</a>
+  <a href="about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+
+<br>
+<br>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<div class="hero-section">
+  <div class="kolonka">
+    <!-- Content for the first column -->
+    <div class="rectangle">
+      <p class="zaglavie">Това е примерна Hero секция</p>
+    <img src="this.jpg" alt="Изображение" width="300" height="400">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+  </div></div>
+  <div class="kolonka">
+    <!-- Content for the second column -->
+    <div class="rectangle">
+     <p class="zaglavie">Това е примерна Hero секция</p>
+    <img src="this.jpg" alt="Изображение" width="300" height="400">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+ 
+  </div>
+</div></div>
+
+
+<br>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <p class="zaglavie">Карта 1</p>
+             <p>See your message for the day</p>
+        <p>Click here ↓</p>	
+<button class="button-30" role="button" onclick="myFunction1()"<span>Click me</span></button>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+     <p class="zaglavie">Карта 2</p>
+        <p>See your message for the day</p>
+        <p>Click here ↓</p>
+<button class="button-30" role="button" onclick="myFunction2()"<span>Click me</span></button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <p class="zaglavie">Карта 3</p>
+     <p>See your message for the day</p>
+        <p>Click here ↓</p>
+<button class="button-30" role="button" onclick="myFunction3()"><span>Click me</span></button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <p class="zaglavie">Карта 4</p>
+     <p>See your message for the day</p>
+        <p>Click here ↓</p>
+<button class="button-30" role="button" onclick="myFunction4()"><span>Click me</span></button>
+    </div>
+  </div>
+</div>
+
+
+<br>
+<br>
+<div class="footer">
+<p class="zaglavie">&copyFooter</p>
+</div>
+</div>
+</body>
+</html>
